@@ -1,6 +1,6 @@
 {
-  "name": "my-new-project",
-  "productName": "my-new-project",
+  "name": "sugo-electron-desktop-client",
+  "productName": "SuGo Electron Desktop Client",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -32,7 +32,7 @@
         "packageManager": "npm"
       },
       "electronWinstallerConfig": {
-        "name": "my_new_project"
+        "name": "SuGo Electron Desktop Client"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
@@ -42,18 +42,20 @@
       },
       "windowsStoreConfig": {
         "packageName": "",
-        "name": "mynewproject"
+        "name": "SuGo Electron Desktop Client"
       }
     }
   },
   "dependencies": {
     "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
     "electron-compile": "^6.4.3",
     "electron-devtools-installer": "^2.2.4",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-hot-loader": "^4.3.11"
+    "react-hot-loader": "^4.3.11",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "babel-plugin-transform-async-to-generator": "^6.24.1",
